@@ -1,0 +1,36 @@
+POST http://localhost:4002/products
+Content-Type: application/json
+
+{
+    "name": "Caneta Lilas",
+    "price": 3
+}
+
+###
+
+GET http://localhost:4002/products
+Content-Type: application/json
+
+
+###
+
+GET http://localhost:4002/products/39ffa42e-b680-4721-840a-234653d63256
+Content-Type: application/json
+
+
+###
+
+
+PUT http://localhost:4002/products/39ffa42e-b680-4721-840a-234653d63256
+Content-Type: application/json
+
+{
+    "name": "Dados",
+    "price": 20
+}
+
+
+###
+
+DELETE http://localhost:4002/products/d75baf86-6b76-445a-90ec-99edff1801f4
+Content-Type: application/json
